@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock-dial {
+    width: 500px;
+    height: 500px;
+    border: 20px solid rgb(0, 51, 109);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+
+}
+
+.hr {
+    font-size: 30px;
+    font-weight: bold;
+    color: #db4104;
+    position: absolute;
+}
+
+.hr-1 {
+    top: 40px;
+    right: 130px;
+}
+
+.hr-2 {
+    top: 125px;
+    right: 45px;
+}
+
+.hr-3 {
+    top: 235px;
+    right: 10px;
+}
+
+.hr-4 {
+    top: 345px;
+    right: 45px;
+}
+
+.hr-5 {
+    top: 430px;
+    right: 130px;
+}
+
+.hr-6 {
+    bottom: 10px;
+    left: 240px;
+}
+
+.hr-7 {
+    top: 430px;
+    left: 130px;
+}
+
+.hr-8 {
+    top: 345px;
+    left: 45px;
+}
+
+.hr-9 {
+    top: 235px;
+    left: 10px;
+}
+
+.hr-10 {
+    top: 125px;
+    left: 45px;
+}
+
+.hr-11 {
+    top: 40px;
+    left: 130px;
+}
+
+.hr-12 {
+    top: 10px;
+    left: 236px;
+}
+
+.watch-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 2, 14);
+    position: absolute;
+    top: 90px;
+    left: 41%;
+    opacity: 0.5;
+}
+
+.watch {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(223, 77, 10);
+    position: absolute;
+    top: 300px;
+    left: 42%;
+    opacity: 0.8;
+}
+
+.mint-hand-card {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.mint-hand {
+    position: relative;
+}
+
+.mint-hand .hand {
+    width: 4px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 198px;
+}
+
+
+/* hour---------- */
+.hour-hand-card {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.hour-hand {
+    position: relative;
+}
+
+.hour-hand .hand {
+    width: 6px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    left: 148px;
+}
+
+/* second---------- */
+.second-hand-card {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 74px;
+    border-radius: 50%;
+}
+
+.second-hand {
+    position: relative;
+}
+
+.second-hand .hand {
+    width: 2px;
+    height: 175px;
+    background-color: black;
+    position: absolute;
+    left: 174px;
+}
+
+
+/* Musharaf Ali */
